@@ -332,23 +332,32 @@ button:active {
         
     }
     .experience {
-        max-width: 100%;
-        padding-top: 60px;
-        padding-bottom: 55px;
-        padding-right: 0;
+        min-width: 100%;
+        display: flex;
         text-align: center;
-        align-items: center;
+       
     }
+    .exp_text {
+        max-width: 320px;
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience_title {
+        text-align: center;
+    }
+    .experience_subtitle {
+        margin-top: 20px;
+        max-width: 320px;
+        align-items: center;
+        
+    }
+
     .event_reminder {
         width: 247px;
         height: 149px;
-        background: #FFFFFF;
-        box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
-        border-radius: 4px 4px 0px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: space-around;
     }
     .arsenal, .chelsea{
         width: 57px;
@@ -357,12 +366,7 @@ button:active {
     
     .notifications_switch {
         width: 247px;
-        height: 34px;
-        background: #EEEEEE;
-        border-radius: 0px 0px 4px 4px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        height: 34px;  
     }
     
     .reminder{
@@ -377,7 +381,7 @@ button:active {
         position: absolute;
         max-width: 247px;
         top: 100px;
-        right: -150px;
+        right: -140px;
     }
     
     .event_time {
@@ -493,12 +497,15 @@ button:active {
 
 @media screen and (max-width: 700px) {
     .interface_text {
-        max-width: 100%;
+        max-width: 320px;
         padding-top: 60px;
         padding-right: 0;
         display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+        line-height: 23px;
 
     }
     .user_interface{
