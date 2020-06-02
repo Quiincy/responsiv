@@ -801,8 +801,8 @@ button:active {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 4px;
+    margin-left: 4px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #9e9e9e;
