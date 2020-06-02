@@ -267,7 +267,6 @@ button:active {
 .experience_title {
     margin-bottom: 27px;
     text-transform: uppercase;
-    height: 22px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -279,7 +278,6 @@ button:active {
 
 .experience_title2 {
     margin-bottom: 27px;
-    height: 37px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -310,16 +308,12 @@ button:active {
 }
 @media screen and (max-width: 700px) {
     .football_experience{
-        max-height: 856px;
         background-image: linear-gradient(to bottom,rgb(255,255,255,1) 30%, rgb(255, 255, 255,0.3) 100%), url(../images/ronaldruben.svg);
         background-position: bottom center;
         background-size: auto 50%
     }
     .container {
         padding: 0 20px;
-    }
-    .event_wrapper {
-        height: 856px;
     }
     .event_info {
         position: relative;
@@ -336,6 +330,7 @@ button:active {
         min-width: 100%;
         display: flex;
         text-align: center;
+        padding-top: 50px;
        
     }
     .exp_text {
@@ -850,6 +845,7 @@ button:active {
     background-image: url(../images/get_up_bg.svg);
     background-position: left top;
     background-repeat: no-repeat;
+
 }
 
 .get_up_text {
